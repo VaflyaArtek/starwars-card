@@ -1,0 +1,37 @@
+.App {
+    max-height: 100vh;
+}
+
+.title {
+    color: rgba(250, 220, 63, .9);;
+    font-family: 'StarWarsFont', sans-serif;
+    font-size: calc(var(--index) * 5);
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    white-space: nowrap;
+    user-select: none;
+    z-index: -1;
+}
+
+@media (max-width: 1100px) {
+    .title {
+        font-size: calc(var(--index) * 6.8);
+    }
+}
+
+@media (max-width: 663px) {
+    .title {
+        top: 20%;
+        font-size: calc(var(--index) * 10);
+        white-space: wrap;
+    }
+}
+
+@media (max-width: 420px) {
+    .title {
+        top: 30%;
+        font-size: calc(var(--index) * 8);
+    }
+}

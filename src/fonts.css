@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'StarWarsFont';
+    src: url('assets/fonts/StarWarsFont.ttf');
+}
+
+@font-face {
+    font-family: 'Typo-Grotesk';
+    src: url('./assets/fonts/typo_grotesk/Typo Grotesk Thin Italic Demo.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Typo-Grotesk';
+    src: url('./assets/fonts/typo_grotesk/Typo Grotesk Italic Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Typo-Grotesk';
+    src: url('./assets/fonts/typo_grotesk/Typo Grotesk Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Typo-Grotesk';
+    src: url('./assets/fonts/typo_grotesk/Typo Grotesk Black Italic Demo.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}

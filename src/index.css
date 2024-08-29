@@ -1,0 +1,33 @@
+@import './fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #fff;
+    --index: calc(1vw + 1vh);
+}
+
+body {
+    color: var(--main-color);
+    font-size: 1.3rem;
+    font-family: 'Typo-Grotesk', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
