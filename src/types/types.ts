@@ -18,3 +18,5 @@ export type StarshipData = {
     passengers: string
     cost_in_credits: string
 }
+
+export type entity = 'people' | 'planets' | 'starships';

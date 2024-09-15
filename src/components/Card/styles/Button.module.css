@@ -20,3 +20,13 @@
 .button:hover svg path {
     fill: black;
 }
+
+.button:disabled:hover {
+    background-color: #5D6766;
+    filter: none;
+    cursor: not-allowed;
+}
+
+.button:disabled:hover svg path {
+    fill: #fff;
+}
